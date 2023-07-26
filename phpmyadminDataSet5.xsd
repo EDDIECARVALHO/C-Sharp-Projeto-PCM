@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="phpmyadminDataSet" targetNamespace="http://tempuri.org/phpmyadminDataSet5.xsd" xmlns:mstns="http://tempuri.org/phpmyadminDataSet5.xsd" xmlns="http://tempuri.org/phpmyadminDataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="phpmyadminConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="phpmyadminConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ProjetoPcm.Properties.Settings.GlobalReference.Default.phpmyadminConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__bookmarkTableAdapter" GeneratorDataComponentClassName="pma__bookmarkTableAdapter" Name="pma__bookmark" UserDataComponentName="pma__bookmarkTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__bookmark" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id`, `dbase`, `user`, `label`, `query` FROM `pma__bookmark`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__central_columnsTableAdapter" GeneratorDataComponentClassName="pma__central_columnsTableAdapter" Name="pma__central_columns" UserDataComponentName="pma__central_columnsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__central_columns" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `db_name`, `col_name`, `col_type`, `col_length`, `col_collation`, `col_isNull`, `col_extra`, `col_default` FROM `pma__central_columns`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__column_infoTableAdapter" GeneratorDataComponentClassName="pma__column_infoTableAdapter" Name="pma__column_info" UserDataComponentName="pma__column_infoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__column_info" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id`, `db_name`, `table_name`, `column_name`, `comment`, `mimetype`, `transformation`, `transformation_options`, `input_transformation`, `input_transformation_options` FROM `pma__column_info`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__designer_settingsTableAdapter" GeneratorDataComponentClassName="pma__designer_settingsTableAdapter" Name="pma__designer_settings" UserDataComponentName="pma__designer_settingsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__designer_settings" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `username`, `settings_data` FROM `pma__designer_settings`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__export_templatesTableAdapter" GeneratorDataComponentClassName="pma__export_templatesTableAdapter" Name="pma__export_templates" UserDataComponentName="pma__export_templatesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__export_templates" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id`, `username`, `export_type`, `template_name`, `template_data` FROM `pma__export_templates`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__favoriteTableAdapter" GeneratorDataComponentClassName="pma__favoriteTableAdapter" Name="pma__favorite" UserDataComponentName="pma__favoriteTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__favorite" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `username`, `tables` FROM `pma__favorite`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__historyTableAdapter" GeneratorDataComponentClassName="pma__historyTableAdapter" Name="pma__history" UserDataComponentName="pma__historyTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__history" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id`, `username`, `db`, `table`, `timevalue`, `sqlquery` FROM `pma__history`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__navigationhidingTableAdapter" GeneratorDataComponentClassName="pma__navigationhidingTableAdapter" Name="pma__navigationhiding" UserDataComponentName="pma__navigationhidingTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__navigationhiding" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `username`, `item_name`, `item_type`, `db_name`, `table_name` FROM `pma__navigationhiding`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__pdf_pagesTableAdapter" GeneratorDataComponentClassName="pma__pdf_pagesTableAdapter" Name="pma__pdf_pages" UserDataComponentName="pma__pdf_pagesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__pdf_pages" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `db_name`, `page_nr`, `page_descr` FROM `pma__pdf_pages`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__recentTableAdapter" GeneratorDataComponentClassName="pma__recentTableAdapter" Name="pma__recent" UserDataComponentName="pma__recentTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__recent" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `username`, `tables` FROM `pma__recent`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__relationTableAdapter" GeneratorDataComponentClassName="pma__relationTableAdapter" Name="pma__relation" UserDataComponentName="pma__relationTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__relation" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `master_db`, `master_table`, `master_field`, `foreign_db`, `foreign_table`, `foreign_field` FROM `pma__relation`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__savedsearchesTableAdapter" GeneratorDataComponentClassName="pma__savedsearchesTableAdapter" Name="pma__savedsearches" UserDataComponentName="pma__savedsearchesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__savedsearches" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id`, `username`, `db_name`, `search_name`, `search_data` FROM `pma__savedsearches`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__table_coordsTableAdapter" GeneratorDataComponentClassName="pma__table_coordsTableAdapter" Name="pma__table_coords" UserDataComponentName="pma__table_coordsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__table_coords" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `db_name`, `table_name`, `pdf_page_number`, `x`, `y` FROM `pma__table_coords`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__table_infoTableAdapter" GeneratorDataComponentClassName="pma__table_infoTableAdapter" Name="pma__table_info" UserDataComponentName="pma__table_infoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__table_info" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `db_name`, `table_name`, `display_field` FROM `pma__table_info`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__table_uiprefsTableAdapter" GeneratorDataComponentClassName="pma__table_uiprefsTableAdapter" Name="pma__table_uiprefs" UserDataComponentName="pma__table_uiprefsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__table_uiprefs" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `username`, `db_name`, `table_name`, `prefs`, `last_update` FROM `pma__table_uiprefs`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__trackingTableAdapter" GeneratorDataComponentClassName="pma__trackingTableAdapter" Name="pma__tracking" UserDataComponentName="pma__trackingTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__tracking" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `db_name`, `table_name`, `version`, `date_created`, `date_updated`, `schema_snapshot`, `schema_sql`, `data_sql`, `tracking`, `tracking_active` FROM `pma__tracking`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__userconfigTableAdapter" GeneratorDataComponentClassName="pma__userconfigTableAdapter" Name="pma__userconfig" UserDataComponentName="pma__userconfigTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__userconfig" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `username`, `timevalue`, `config_data` FROM `pma__userconfig`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__usergroupsTableAdapter" GeneratorDataComponentClassName="pma__usergroupsTableAdapter" Name="pma__usergroups" UserDataComponentName="pma__usergroupsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__usergroups" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `usergroup`, `tab`, `allowed` FROM `pma__usergroups`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pma__usersTableAdapter" GeneratorDataComponentClassName="pma__usersTableAdapter" Name="pma__users" UserDataComponentName="pma__usersTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="phpmyadminConnectionString (Settings)" DbObjectName="phpmyadmin.pma__users" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `username`, `usergroup` FROM `pma__users`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="phpmyadminDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="phpmyadminDataSet" msprop:Generator_UserDSName="phpmyadminDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="pma__bookmark" msprop:Generator_TableClassName="pma__bookmarkDataTable" msprop:Generator_TableVarName="tablepma__bookmark" msprop:Generator_TablePropName="pma__bookmark" msprop:Generator_RowDeletingName="pma__bookmarkRowDeleting" msprop:Generator_RowChangingName="pma__bookmarkRowChanging" msprop:Generator_RowEvHandlerName="pma__bookmarkRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__bookmarkRowDeleted" msprop:Generator_UserTableName="pma__bookmark" msprop:Generator_RowChangedName="pma__bookmarkRowChanged" msprop:Generator_RowEvArgName="pma__bookmarkRowChangeEvent" msprop:Generator_RowClassName="pma__bookmarkRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__central_columns" msprop:Generator_TableClassName="pma__central_columnsDataTable" msprop:Generator_TableVarName="tablepma__central_columns" msprop:Generator_TablePropName="pma__central_columns" msprop:Generator_RowDeletingName="pma__central_columnsRowDeleting" msprop:Generator_RowChangingName="pma__central_columnsRowChanging" msprop:Generator_RowEvHandlerName="pma__central_columnsRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__central_columnsRowDeleted" msprop:Generator_UserTableName="pma__central_columns" msprop:Generator_RowChangedName="pma__central_columnsRowChanged" msprop:Generator_RowEvArgName="pma__central_columnsRowChangeEvent" msprop:Generator_RowClassName="pma__central_columnsRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__column_info" msprop:Generator_TableClassName="pma__column_infoDataTable" msprop:Generator_TableVarName="tablepma__column_info" msprop:Generator_TablePropName="pma__column_info" msprop:Generator_RowDeletingName="pma__column_infoRowDeleting" msprop:Generator_RowChangingName="pma__column_infoRowChanging" msprop:Generator_RowEvHandlerName="pma__column_infoRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__column_infoRowDeleted" msprop:Generator_UserTableName="pma__column_info" msprop:Generator_RowChangedName="pma__column_infoRowChanged" msprop:Generator_RowEvArgName="pma__column_infoRowChangeEvent" msprop:Generator_RowClassName="pma__column_infoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__designer_settings" msprop:Generator_TableClassName="pma__designer_settingsDataTable" msprop:Generator_TableVarName="tablepma__designer_settings" msprop:Generator_TablePropName="pma__designer_settings" msprop:Generator_RowDeletingName="pma__designer_settingsRowDeleting" msprop:Generator_RowChangingName="pma__designer_settingsRowChanging" msprop:Generator_RowEvHandlerName="pma__designer_settingsRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__designer_settingsRowDeleted" msprop:Generator_UserTableName="pma__designer_settings" msprop:Generator_RowChangedName="pma__designer_settingsRowChanged" msprop:Generator_RowEvArgName="pma__designer_settingsRowChangeEvent" msprop:Generator_RowClassName="pma__designer_settingsRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__export_templates" msprop:Generator_TableClassName="pma__export_templatesDataTable" msprop:Generator_TableVarName="tablepma__export_templates" msprop:Generator_TablePropName="pma__export_templates" msprop:Generator_RowDeletingName="pma__export_templatesRowDeleting" msprop:Generator_RowChangingName="pma__export_templatesRowChanging" msprop:Generator_RowEvHandlerName="pma__export_templatesRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__export_templatesRowDeleted" msprop:Generator_UserTableName="pma__export_templates" msprop:Generator_RowChangedName="pma__export_templatesRowChanged" msprop:Generator_RowEvArgName="pma__export_templatesRowChangeEvent" msprop:Generator_RowClassName="pma__export_templatesRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__favorite" msprop:Generator_TableClassName="pma__favoriteDataTable" msprop:Generator_TableVarName="tablepma__favorite" msprop:Generator_TablePropName="pma__favorite" msprop:Generator_RowDeletingName="pma__favoriteRowDeleting" msprop:Generator_RowChangingName="pma__favoriteRowChanging" msprop:Generator_RowEvHandlerName="pma__favoriteRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__favoriteRowDeleted" msprop:Generator_UserTableName="pma__favorite" msprop:Generator_RowChangedName="pma__favoriteRowChanged" msprop:Generator_RowEvArgName="pma__favoriteRowChangeEvent" msprop:Generator_RowClassName="pma__favoriteRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__history" msprop:Generator_TableClassName="pma__historyDataTable" msprop:Generator_TableVarName="tablepma__history" msprop:Generator_TablePropName="pma__history" msprop:Generator_RowDeletingName="pma__historyRowDeleting" msprop:Generator_RowChangingName="pma__historyRowChanging" msprop:Generator_RowEvHandlerName="pma__historyRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__historyRowDeleted" msprop:Generator_UserTableName="pma__history" msprop:Generator_RowChangedName="pma__historyRowChanged" msprop:Generator_RowEvArgName="pma__historyRowChangeEvent" msprop:Generator_RowClassName="pma__historyRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__navigationhiding" msprop:Generator_TableClassName="pma__navigationhidingDataTable" msprop:Generator_TableVarName="tablepma__navigationhiding" msprop:Generator_TablePropName="pma__navigationhiding" msprop:Generator_RowDeletingName="pma__navigationhidingRowDeleting" msprop:Generator_RowChangingName="pma__navigationhidingRowChanging" msprop:Generator_RowEvHandlerName="pma__navigationhidingRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__navigationhidingRowDeleted" msprop:Generator_UserTableName="pma__navigationhiding" msprop:Generator_RowChangedName="pma__navigationhidingRowChanged" msprop:Generator_RowEvArgName="pma__navigationhidingRowChangeEvent" msprop:Generator_RowClassName="pma__navigationhidingRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__pdf_pages" msprop:Generator_TableClassName="pma__pdf_pagesDataTable" msprop:Generator_TableVarName="tablepma__pdf_pages" msprop:Generator_TablePropName="pma__pdf_pages" msprop:Generator_RowDeletingName="pma__pdf_pagesRowDeleting" msprop:Generator_RowChangingName="pma__pdf_pagesRowChanging" msprop:Generator_RowEvHandlerName="pma__pdf_pagesRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__pdf_pagesRowDeleted" msprop:Generator_UserTableName="pma__pdf_pages" msprop:Generator_RowChangedName="pma__pdf_pagesRowChanged" msprop:Generator_RowEvArgName="pma__pdf_pagesRowChangeEvent" msprop:Generator_RowClassName="pma__pdf_pagesRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__recent" msprop:Generator_TableClassName="pma__recentDataTable" msprop:Generator_TableVarName="tablepma__recent" msprop:Generator_TablePropName="pma__recent" msprop:Generator_RowDeletingName="pma__recentRowDeleting" msprop:Generator_RowChangingName="pma__recentRowChanging" msprop:Generator_RowEvHandlerName="pma__recentRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__recentRowDeleted" msprop:Generator_UserTableName="pma__recent" msprop:Generator_RowChangedName="pma__recentRowChanged" msprop:Generator_RowEvArgName="pma__recentRowChangeEvent" msprop:Generator_RowClassName="pma__recentRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__relation" msprop:Generator_TableClassName="pma__relationDataTable" msprop:Generator_TableVarName="tablepma__relation" msprop:Generator_TablePropName="pma__relation" msprop:Generator_RowDeletingName="pma__relationRowDeleting" msprop:Generator_RowChangingName="pma__relationRowChanging" msprop:Generator_RowEvHandlerName="pma__relationRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__relationRowDeleted" msprop:Generator_UserTableName="pma__relation" msprop:Generator_RowChangedName="pma__relationRowChanged" msprop:Generator_RowEvArgName="pma__relationRowChangeEvent" msprop:Generator_RowClassName="pma__relationRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__savedsearches" msprop:Generator_TableClassName="pma__savedsearchesDataTable" msprop:Generator_TableVarName="tablepma__savedsearches" msprop:Generator_TablePropName="pma__savedsearches" msprop:Generator_RowDeletingName="pma__savedsearchesRowDeleting" msprop:Generator_RowChangingName="pma__savedsearchesRowChanging" msprop:Generator_RowEvHandlerName="pma__savedsearchesRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__savedsearchesRowDeleted" msprop:Generator_UserTableName="pma__savedsearches" msprop:Generator_RowChangedName="pma__savedsearchesRowChanged" msprop:Generator_RowEvArgName="pma__savedsearchesRowChangeEvent" msprop:Generator_RowClassName="pma__savedsearchesRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__table_coords" msprop:Generator_TableClassName="pma__table_coordsDataTable" msprop:Generator_TableVarName="tablepma__table_coords" msprop:Generator_TablePropName="pma__table_coords" msprop:Generator_RowDeletingName="pma__table_coordsRowDeleting" msprop:Generator_RowChangingName="pma__table_coordsRowChanging" msprop:Generator_RowEvHandlerName="pma__table_coordsRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__table_coordsRowDeleted" msprop:Generator_UserTableName="pma__table_coords" msprop:Generator_RowChangedName="pma__table_coordsRowChanged" msprop:Generator_RowEvArgName="pma__table_coordsRowChangeEvent" msprop:Generator_RowClassName="pma__table_coordsRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__table_info" msprop:Generator_TableClassName="pma__table_infoDataTable" msprop:Generator_TableVarName="tablepma__table_info" msprop:Generator_TablePropName="pma__table_info" msprop:Generator_RowDeletingName="pma__table_infoRowDeleting" msprop:Generator_RowChangingName="pma__table_infoRowChanging" msprop:Generator_RowEvHandlerName="pma__table_infoRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__table_infoRowDeleted" msprop:Generator_UserTableName="pma__table_info" msprop:Generator_RowChangedName="pma__table_infoRowChanged" msprop:Generator_RowEvArgName="pma__table_infoRowChangeEvent" msprop:Generator_RowClassName="pma__table_infoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__table_uiprefs" msprop:Generator_TableClassName="pma__table_uiprefsDataTable" msprop:Generator_TableVarName="tablepma__table_uiprefs" msprop:Generator_TablePropName="pma__table_uiprefs" msprop:Generator_RowDeletingName="pma__table_uiprefsRowDeleting" msprop:Generator_RowChangingName="pma__table_uiprefsRowChanging" msprop:Generator_RowEvHandlerName="pma__table_uiprefsRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__table_uiprefsRowDeleted" msprop:Generator_UserTableName="pma__table_uiprefs" msprop:Generator_RowChangedName="pma__table_uiprefsRowChanged" msprop:Generator_RowEvArgName="pma__table_uiprefsRowChangeEvent" msprop:Generator_RowClassName="pma__table_uiprefsRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__tracking" msprop:Generator_TableClassName="pma__trackingDataTable" msprop:Generator_TableVarName="tablepma__tracking" msprop:Generator_TablePropName="pma__tracking" msprop:Generator_RowDeletingName="pma__trackingRowDeleting" msprop:Generator_RowChangingName="pma__trackingRowChanging" msprop:Generator_RowEvHandlerName="pma__trackingRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__trackingRowDeleted" msprop:Generator_UserTableName="pma__tracking" msprop:Generator_RowChangedName="pma__trackingRowChanged" msprop:Generator_RowEvArgName="pma__trackingRowChangeEvent" msprop:Generator_RowClassName="pma__trackingRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__userconfig" msprop:Generator_TableClassName="pma__userconfigDataTable" msprop:Generator_TableVarName="tablepma__userconfig" msprop:Generator_TablePropName="pma__userconfig" msprop:Generator_RowDeletingName="pma__userconfigRowDeleting" msprop:Generator_RowChangingName="pma__userconfigRowChanging" msprop:Generator_RowEvHandlerName="pma__userconfigRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__userconfigRowDeleted" msprop:Generator_UserTableName="pma__userconfig" msprop:Generator_RowChangedName="pma__userconfigRowChanged" msprop:Generator_RowEvArgName="pma__userconfigRowChangeEvent" msprop:Generator_RowClassName="pma__userconfigRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__usergroups" msprop:Generator_TableClassName="pma__usergroupsDataTable" msprop:Generator_TableVarName="tablepma__usergroups" msprop:Generator_TablePropName="pma__usergroups" msprop:Generator_RowDeletingName="pma__usergroupsRowDeleting" msprop:Generator_RowChangingName="pma__usergroupsRowChanging" msprop:Generator_RowEvHandlerName="pma__usergroupsRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__usergroupsRowDeleted" msprop:Generator_UserTableName="pma__usergroups" msprop:Generator_RowChangedName="pma__usergroupsRowChanged" msprop:Generator_RowEvArgName="pma__usergroupsRowChangeEvent" msprop:Generator_RowClassName="pma__usergroupsRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pma__users" msprop:Generator_TableClassName="pma__usersDataTable" msprop:Generator_TableVarName="tablepma__users" msprop:Generator_TablePropName="pma__users" msprop:Generator_RowDeletingName="pma__usersRowDeleting" msprop:Generator_RowChangingName="pma__usersRowChanging" msprop:Generator_RowEvHandlerName="pma__usersRowChangeEventHandler" msprop:Generator_RowDeletedName="pma__usersRowDeleted" msprop:Generator_UserTableName="pma__users" msprop:Generator_RowChangedName="pma__usersRowChanged" msprop:Generator_RowEvArgName="pma__usersRowChangeEvent" msprop:Generator_RowClassName="pma__usersRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
